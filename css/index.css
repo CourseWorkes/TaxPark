@@ -1,0 +1,53 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+	transition-property: all;
+	transition-duration: 0.4s;
+}
+
+#logo {
+	text-align: center;
+}
+
+.w-link {
+	color: white;
+}
+
+body {
+	background-color: #FBDE19;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		margin-top: -15px;
+	} to {
+		opacity: 1;
+	}
+}
+
+#about, #tariffs, #regions, #order {
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+}
+
+.star.yellow.icon {
+	transition-property: all;
+	transition-duration: 0.4s;
+}
+
+.star.yellow.icon:hover {
+	transform: rotate(360deg);
+}
+
+.ui.inverted.segment a i {
+	transition-property: all;
+	transition-duration: 0.4s;
+}
+
+.ui.inverted.segment a i:hover {
+	transform: scale(1.5, 1.5);
+}
